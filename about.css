@@ -1,0 +1,17 @@
+/* ~About / Booking ~ */
+
+#about, #booking {
+  position: relative;
+}
+
+#about-img {
+  position: absolute;
+  z-index: 1;
+}
+
+.texts {
+  position: absolute;
+  z-index: 2;
+  margin: 20vw;
+  font-size: 0.9em;
+}

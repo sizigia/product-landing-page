@@ -1,0 +1,8 @@
+/* ~Video~ */
+
+#what-we-do {
+  color: rgba(206, 64, 39, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

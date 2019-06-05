@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Product Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="style.css">
+
+
+  </head>
+
+  <body>
+    <header id="header">
+      <img src="The tipping point.png" id="header-img" alt="tipping point agency logo">
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#about">About Us</a></li>
+          <li><a class="nav-link" href="#what-we-do">What We Do</a></li>
+          <li><a class="nav-link" href="#booking">Booking</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+
+      <section id="about">
+        <div class="texts">
+          <h1>About Us</h1>
+          <p>Tipping Point a young women owned agency with an exquisite eye for design and a skilled staff ready to make
+            your ideas come to fruition.</p>
+          <p>Every business is unique.</p>
+          <p>Every client is unique.</p>
+          <p>We know it. We build teams around <a href="#booking">your needs</a>.</p>
+          <p>Not sure if we're a good fit? Let us quickly show you <a href="#what-we-do">what we do</a>.</p>
+        </div>
+        <img src="avel-chuklanov-1491019-unsplash.jpg" id="about-img" alt="woman designing a website">
+      </section>
+
+      <section id="what-we-do">
+        <h1>Amazing Things We Will Build For You</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YJb-rE2qH3E?controls=0" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="texts">
+          <p>Ready to make your ideas come true? Let us <a href="#booking">help your business</a>.</p>
+        </div>
+      </section>
+
+      <section id="booking">
+        <img src="avel-chuklanov-1491018-unsplash.jpg" id="booking-img" alt="client reviewing the final product">
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="get">
+          <label for="name" id="name-label">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required></input>
+
+          <label for="email" id="email-label">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required></input>
+
+          <label for="number" id="number-label">Number:</label>
+          <input type="number" id="number" name="number" placeholder="Enter your number" min="0" max="9"></input>
+
+          <input id="submit" type="submit">Submit</input>
+        </form>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>Design by <a href="https://github.com/sizigia/">Sizigia©</a></p>
+    </footer>
+    <!--script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script-->
+  </body>
+
+</html>

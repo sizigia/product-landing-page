@@ -1,0 +1,54 @@
+/* Media Queries */
+@media (max-width: 450px){
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+}
+
+/*    Main structure    */
+:root, body, body * {
+  margin: 0;
+  padding: 0;
+  background-color: #f2eee8;
+  text-align: center;
+
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+main {
+  grid-row: 2/3;
+}
+
+footer {
+  bottom: 0;
+  font-size: 0.8rem;
+  margin: 2%;
+  background-color: rgba(206, 64, 39, 0.5);
+}
+
+
+/* ~Main content~ */
+/*
+ * Photos by Avel Chuklanov on Unsplash
+ */
+
+main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  background-color: rgba(206, 64, 39, 0.45);
+}
