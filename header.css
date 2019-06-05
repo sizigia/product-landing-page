@@ -9,11 +9,10 @@
 
 header {
   grid-row: 1/2;
-  z-index: 3;
   position: fixed;
-  top: 0;
+  z-index: 3;
+  width: 100vw;
   display: flex;
-  width: 100%;
   justify-content:space-between;
   align-items: center;
   text-align: center;
@@ -21,17 +20,15 @@ header {
 
 #nav-bar {
   align-self: center;
-  margin-right: 2vw;
 }
 
 nav ul {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(150px, 1fr));
 }
 
 nav li {
   list-style: none;
-  margin-left: 15px;
 }
 
 a {
@@ -39,6 +36,6 @@ a {
 }
 
 a:hover {
-  font-size: 20px;
-  color:red;
+  font-size: 15px;
+  color:var(--color1);
 }

@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="booking.css">
+    <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="style.css">
-
-
+    <link rel="stylesheet" href="video.css">
   </head>
 
   <body>
@@ -25,6 +27,13 @@
     </header>
 
     <main>
+      <section id="action">
+        <form id="actform">
+          <label for="email">Sign up to receive awesome discounts and other news from the agency!</label>
+          <input type="text" name="email" id="customer_email">
+          <button type="submit">I'm in!</button>
+        </form>
+      </section>
 
       <section id="about">
         <div class="texts">
@@ -36,7 +45,6 @@
           <p>We know it. We build teams around <a href="#booking">your needs</a>.</p>
           <p>Not sure if we're a good fit? Let us quickly show you <a href="#what-we-do">what we do</a>.</p>
         </div>
-        <img src="avel-chuklanov-1491019-unsplash.jpg" id="about-img" alt="woman designing a website">
       </section>
 
       <section id="what-we-do">
@@ -49,7 +57,6 @@
       </section>
 
       <section id="booking">
-        <img src="avel-chuklanov-1491018-unsplash.jpg" id="booking-img" alt="client reviewing the final product">
         <form id="form" action="https://www.freecodecamp.com/email-submit" method="get">
           <label for="name" id="name-label">Name:</label>
           <input type="text" id="name" name="name" placeholder="Enter your name" required></input>

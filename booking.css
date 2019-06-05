@@ -1,12 +1,11 @@
 /* ~Booking~ */
 
 #booking {
-  height: auto;
-  display: grid;
-  grid-template-columns: 50% 50%;
+  background: url("/home/faustina/fCC/web-design/Projects/product-landing-page/avel-chuklanov-1491018-unsplash.jpg") no-repeat center center;
+  background-size: cover;
 }
 
-#form {
+#form, #actform {
   display: flex;
   flex-direction: column;
 }
