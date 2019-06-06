@@ -1,12 +1,30 @@
 /* Media Queries */
 @media (max-width: 700px){
+  :root {
+    --header: 135px;
+  }
+  
   header, nav ul {
+    width: 100%;
     display: flex;
     flex-direction: column;
   }
+  nav ul {
+    flex-direction: row;
+  }
    nav ul * {
-      margin-top: 1.2vh;
+      margin: 1.2vh;
      font-size: 0.9rem;
+  }
+  
+  #about div {
+  margin: -30vw 10vw 10vw 10vw;
+}
+}
+
+@media (min-width: 701px){
+  :root {
+    --header: 110px;
   }
 }
 
@@ -22,7 +40,6 @@
   padding: 0;
   background-color: var(--color3);
   text-align: center;
-  box-sizing: border-box;
 }
 
 p, a {
@@ -39,7 +56,6 @@ main {
 }
 
 footer {
-  position: relative;
   grid-row: 3/4;
   bottom: 0;
   z-index: 4;
@@ -53,24 +69,10 @@ footer {
  * Photos by Avel Chuklanov on Unsplash
  */
 
-main {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-}
 
 section {
   height: 100vh;
-  width: 100vw;
   display: flex;
   align-items: center;
-  justify-items: center;
   background-color: var(--color2);
-}
-
-section#action * {
-  background-color: var(--color4);
-  margin: 0 10vw;
-  padding: 2vw;
-  align-self: center;
 }

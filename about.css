@@ -3,20 +3,25 @@
 #about {
   background: url("/home/faustina/fCC/web-design/Projects/product-landing-page/avel-chuklanov-1491019-unsplash.jpg") no-repeat center center;
   background-size: cover;
+  padding-top: var(--header);
 }
 
 .texts, #form {
-  font-size: 0.9em;
+  font-size: 0.95em;
 }
 
 .texts {
-  margin: 15vw;
+  margin 3vw;
   padding: 2vh;
+  color: var(--color1);
   background-color: var(--color4);
 }
 
 .texts p {
-  margin: 1vh;
-  
+  margin: 1.5vh;
   text-align: justify;
+}
+
+.texts a {
+  text-decoration-line: underline;
 }

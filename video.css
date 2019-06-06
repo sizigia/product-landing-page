@@ -2,7 +2,21 @@
 
 #what-we-do {
   color: var(--color1);
-  display: grid;
-  align-items: center;
-  padding-top: 2vh;
+  flex-direction: column;
+  padding-top: var(--header);
+}
+
+#what-we-do h1 {
+  margin: 4.5vw;
+  font-size: 1.05em;
+  text-align: match-parent;
+}
+
+iframe {
+  width: 80vw;
+  height: 100vh;
+}
+
+#what-we-do div {
+  margin: 10vh;
 }
