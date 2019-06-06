@@ -16,6 +16,7 @@ header {
   justify-content:space-between;
   align-items: center;
   text-align: center;
+  border-bottom: solid var(--color1);
 }
 
 #nav-bar {

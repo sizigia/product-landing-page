@@ -1,7 +1,7 @@
 /* Media Queries */
 @media (max-width: 700px){
   :root {
-    --header: 135px;
+    --header: 155px;
   }
   
   header, nav ul {
@@ -12,14 +12,10 @@
   nav ul {
     flex-direction: row;
   }
-   nav ul * {
+  nav ul * {
       margin: 1.2vh;
      font-size: 0.9rem;
   }
-  
-  #about div {
-  margin: -30vw 10vw 10vw 10vw;
-}
 }
 
 @media (min-width: 701px){
@@ -40,6 +36,7 @@
   padding: 0;
   background-color: var(--color3);
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 p, a {
@@ -60,7 +57,8 @@ footer {
   bottom: 0;
   z-index: 4;
   font-size: 0.8rem;
-  margin: 1.5%;
+  padding: 1.5%;
+  border-top: solid var(--color1);
 }
 
 
@@ -71,8 +69,18 @@ footer {
 
 
 section {
+  padding-top: var(--header);
   height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-items: center;
   background-color: var(--color2);
+}
+
+#action {
+  padding-top: 0;
+  height: 40vh;
+  flex-direction: column-reverse;
+  padding-bottom: 10vh;
 }

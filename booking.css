@@ -6,8 +6,9 @@
   display: flex;
 }
 
-#form, #actform {
+form {
   display: flex;
   flex-direction: column;
+  place-self: center;
   text-align: left;
 }

@@ -1,12 +1,24 @@
-/* ~About / Booking ~ */
+/* ~ Product ~ */
 
-#about {
+#product {
   background: url("/home/faustina/fCC/web-design/Projects/product-landing-page/avel-chuklanov-1491019-unsplash.jpg") no-repeat center center;
   background-size: cover;
   padding-top: var(--header);
 }
 
-.texts, #form {
+#product div {
+  align-self: start;
+  width: 30vw;
+  background-color: var(--color2);
+}
+
+#product {
+  text-align: left;
+}
+
+/* ~ Texts ~ */
+
+.texts, form {
   font-size: 0.95em;
 }
 
@@ -24,4 +36,15 @@
 
 .texts a {
   text-decoration-line: underline;
+}
+
+/* ~ About ~ */
+#about {
+  height: 50vh;
+}
+
+#about div {
+  align-self: center;
+  width: 80vw;
+  background-color: var(--color3);
 }
