@@ -6,9 +6,41 @@
   display: flex;
 }
 
-form {
+form#form, form#actform {
   display: flex;
   flex-direction: column;
-  place-self: center;
+  padding: 1.5vh;
+  background: var(--color4);
+}
+
+form label {
   text-align: left;
+  font-weight: bold;
+  padding: 1.5vh 0 1.5vh 0;
+  background: transparent;
+}
+
+form input {
+  padding: 2vh;
+}
+
+form textarea {
+  font-size: inherit;
+  text-align: left;
+  padding: 3vh;
+}
+
+form button, form #submit {
+  text-align: center;
+  font-weight: bold;
+  align-self: center;
+  width: 20vw;
+  margin-top: 1.5vh;
+  padding: 1.5vh 0 1.5vh 0;
+  background-color: var(--color2);
+}
+
+form button:hover, form #submit:hover {
+  color: var(--color3);
+  background-color: var(--color1);
 }
