@@ -1,7 +1,7 @@
 /* ~ Product ~ */
 
 #product {
-  background: url("/home/faustina/fCC/web-design/Projects/product-landing-page/avel-chuklanov-1491019-unsplash.jpg") no-repeat center center;
+  background: url("avel-chuklanov-1491019-unsplash.jpg") no-repeat center center;
   background-size: cover;
   padding-top: var(--header);
 }
@@ -27,7 +27,7 @@
 }
 
 .texts {
-  margin 3vw;
+  margin: 3vw;
   padding: 2vh;
   color: var(--color1);
   background-color: var(--color4);

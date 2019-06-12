@@ -1,7 +1,7 @@
 /* ~Booking~ */
 
 #booking {
-  background: url("/home/faustina/fCC/web-design/Projects/product-landing-page/avel-chuklanov-1491018-unsplash.jpg") no-repeat center center;
+  background: url("avel-chuklanov-1491018-unsplash.jpg") no-repeat center center;
   background-size: cover;
   display: flex;
 }
